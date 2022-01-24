@@ -4,11 +4,11 @@
 [![Build Status](https://img.shields.io/travis/IchHabRecht/core_upgrader/master.svg)](https://travis-ci.org/IchHabRecht/core_upgrader)
 [![StyleCI](https://styleci.io/repos/263364343/shield?branch=master)](https://styleci.io/repos/263364343)
 
-Run upgrade wizards for multiple TYPO3 versions (to 10.4) at once.
+Run upgrade wizards for multiple TYPO3 versions (to 11.5) at once.
 
 ## Features
 
-This extension allows to upgrade the TYPO3 core from v7.6 to v10.4 in one step.
+This extension allows to upgrade the TYPO3 core from v7.6 to v11.5 in one step.
 
 ## Installation
 

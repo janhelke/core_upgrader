@@ -11,6 +11,7 @@
     ],
     "homepage": "https://github.com/IchHabRecht/core_upgrader",
     "license": "GPL-2.0-or-later",
+	"version": "11.0.0",
     "authors": [
         {
             "name": "Nicole Cordes",
@@ -19,16 +20,16 @@
         }
     ],
     "require": {
-        "php": ">=7.2, < 7.5",
-        "typo3/cms-core": "^10.4",
-        "typo3/cms-frontend": "^10.4",
-        "typo3/cms-install": "^10.4",
-        "helhum/typo3-console": "^6.3.0"
+        "typo3/cms-core": "^10.4 | ^11.5",
+        "typo3/cms-frontend": "^10.4 | ^11.5",
+        "typo3/cms-install": "^10.4 | ^11.5",
+        "helhum/typo3-console": "^6.3 | ^7.0"
     },
     "autoload": {
         "psr-4": {
             "IchHabRecht\\Upgrader\\": "Classes/",
-            "TYPO3\\CMS\\v87\\Install\\Updates\\": "Classes/Updates/v87/"
+            "TYPO3\\CMS\\v87\\Install\\Updates\\": "Classes/Updates/v87/",
+            "TYPO3\\CMS\\v95\\Install\\Updates\\": "Classes/Updates/v95/"
         }
     },
     "replace": {
